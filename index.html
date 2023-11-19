@@ -36,7 +36,7 @@
   </head>
   <body>
     <section class="Main-section">
-      <div class="d-flex container flex-column justify-content-center col-10 ">
+      <div class="d-flex container flex-column justify-content-center col-10">
         <h1 class="text-light">Allan Palmer</h1>
         <nav class="navbar">
           <ul class="list-unstyled">
@@ -70,18 +70,19 @@
         class="Sobre-mi d-flex container flex-column flex-lg-row align-items-center justify-content-around"
         id="scrollspyHeading1"
       >
-        <img
-          src="https://randomuser.me/api/portraits/men/33.jpg"
-          alt="Img-perfil"
-          class="col-lg-4"
-        />
-        <ul class="col-10 col-lg-4 list-unstyled">
+        <div class="col-10 col-lg-auto container d-flex align-items-center justify-content-around">
+          <img
+            src="https://randomuser.me/api/portraits/men/33.jpg"
+            alt="Img-perfil"
+          />
+        </div>
+        <ul class="col-10 col-lg-4 container list-unstyled">
           <li>Argentina, 1/7/1988</li>
           <li>(896) 328-4480</li>
           <li>allan.palmer@example.com</li>
           <li>Santa Cruz, Argentina</li>
         </ul>
-        <div class="col-10 col-lg-4">
+        <div class="col-10 col-lg-4 container">
           <h2>Sobre mi</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
@@ -103,7 +104,7 @@
         </div>
       </div>
       <div
-        class="Historia d-flex flex-column flex-lg-row align-items-center justify-content-around "
+        class="Historia d-flex flex-column flex-lg-row align-items-center justify-content-around"
         id="scrollspyHeading2"
       >
         <div class="col-10 col-lg-5">
@@ -150,7 +151,7 @@
         <form
           action="emails.php"
           method="post"
-          class="d-flex form-label container-md    "
+          class="d-flex form-label container-md"
         >
           <input
             class="form-control"
@@ -161,7 +162,7 @@
           />
           <button class="btn btn-primary" type="submit">Enviar</button>
         </form>
-        <nav class="container ">
+        <nav class="container">
           <ul
             class="list-unstyled d-flex container align-items-center justify-content-around"
           >
@@ -193,10 +194,14 @@
           </ul>
         </nav>
       </div>
-      <div class="col-lg-4 col-12 d-flex container align-items-center justify-content-around text-center">
-        <h2 class="Contacto-item ">Allan Palmer</h2>
+      <div
+        class="col-lg-4 col-12 d-flex container align-items-center justify-content-around text-center"
+      >
+        <h2 class="Contacto-item">Allan Palmer</h2>
       </div>
-      <div class="Contacto-item d-flex flex-column justify-content-around text-center col-lg-4 col-12 ">
+      <div
+        class="Contacto-item d-flex flex-column justify-content-around text-center col-lg-4 col-12"
+      >
         <h3>Fuentes Utilizadas</h3>
         <p>Bootstrap, fontawasome, googlefonts y randomuser.me</p>
       </div>
