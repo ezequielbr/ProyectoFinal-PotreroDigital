@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-family: "Bebas Neue";
+  margin: 0;
+  padding: 0;
+  
+}
+h1 {
+  font-size: 5rem !important;
+}
+.Main-section {
+  background-image: url("https://media1.giphy.com/media/WoD6JZnwap6s8/giphy.gif?cid=ecf05e47y5ky7spddxprahhgv7gfiqu5iojaikrodmyu6az4&amp;ep=v1_gifs_search&amp;rid=giphy.gif&amp;ct=g");
+  height: 100vh;
+}
+.Main-section div {
+  height: 100%;
+}
+.white-section {
+  background-color: #D8E9A8;
+  height: 100vh;
+}
+.Sobre-mi {
+  height: 50%;
+}
+.Sobre-mi img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.white-section li {
+  background-color: #4E9F3D;
+  border-radius: 10px;
+  padding: 2% 5%;
+  margin: 1.5% 0;
+}
+.Historia {
+  background-color: #1E5128;
+  height: 50%;
+}
+.Contacto {
+  height: 20vh;
+}
+.Contacto-item {
+  height: 33.33333%;
+}
+@media only screen and (max-width: 992px) {
+  .Contacto {
+    height: 50vh;
+  }
+  .white-section {
+    height: 200vh;
+  }
+}
