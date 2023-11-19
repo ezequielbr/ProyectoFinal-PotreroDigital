@@ -15,37 +15,40 @@ h1 {
 }
 .white-section {
   background-color: #D8E9A8;
-  height: 100vh;
+  height: 200vh;
 }
-.Sobre-mi {
-  height: 50%;
-}
-.Sobre-mi img {
-  height: 100%;
-  border-radius: 50%;
-}
-
 .white-section li {
   background-color: #4E9F3D;
   border-radius: 10px;
   padding: 2% 5%;
   margin: 1.5% 0;
 }
+.Sobre-mi {
+  height: 50%;
+}
+.Sobre-mi img {
+  min-width: 150px;
+  max-width: 80vw;
+  border-radius: 50%;
+}
 .Historia {
   background-color: #1E5128;
   height: 50%;
 }
 .Contacto {
-  height: 20vh;
+  height: 50vh;
 }
 .Contacto-item {
   height: 33.33333%;
 }
-@media only screen and (max-width: 992px) {
+@media (min-width: 992px) {
   .Contacto {
-    height: 50vh;
+    height: 20vh;
   }
   .white-section {
-    height: 200vh;
+    height: 100vh;
+  }
+  .Sobre-mi img {
+    height: 25vh;
   }
 }
