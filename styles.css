@@ -21,10 +21,10 @@ h1 {
   height: 50%;
 }
 .Sobre-mi img {
-  height: 200px;
-  width: 200px;
+  height: 100%;
   border-radius: 50%;
 }
+
 .white-section li {
   background-color: #4E9F3D;
   border-radius: 10px;
