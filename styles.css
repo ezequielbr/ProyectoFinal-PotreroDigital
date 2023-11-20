@@ -14,7 +14,7 @@ h1 {
   height: 100%;
 }
 .white-section {
-  background-color: #D8E9A8;
+ 
   height: 200vh;
 }
 .white-section li {
@@ -24,11 +24,14 @@ h1 {
   margin: 1.5% 0;
 }
 .Sobre-mi {
+  background-color: #D8E9A8;
   height: 50%;
 }
 .Sobre-mi img {
+  min-height: 150px;
+  max-height: 250px;
   min-width: 150px;
-  max-width: 80vw;
+  max-width: 250px;
   border-radius: 50%;
 }
 .Historia {
